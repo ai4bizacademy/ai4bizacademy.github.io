@@ -1,3 +1,3 @@
 # quastcastro.github.io
 
-<https://quastcastro.github.io/>
+<https://quastcastro.com>
