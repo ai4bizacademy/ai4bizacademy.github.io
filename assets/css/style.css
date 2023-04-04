@@ -427,9 +427,33 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+/* Add a fallback background image if the video doesn't load */
+#hero-video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  position: relative;
+  z-index: -2;
 }
 
 #hero:before {
