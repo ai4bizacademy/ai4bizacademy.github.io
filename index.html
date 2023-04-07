@@ -94,15 +94,42 @@
       <source src="assets/img/cr.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-8">
+<div class="container">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#heroCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#heroCarousel" data-bs-slide-to="2"></li>
+      </ol>
+
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <h1>Quast Castro Attornies at Law</h1>
           <h2>Easing families and businesses into the Costa Rican dream</h2>
-          <a href="https://www.youtube.com/watch?v=wUXdwlLW8KI" class="glightbox play-btn mb-4"></a>
+        </div>
+        <div class="carousel-item">
+          <h1>Slide 2</h1>
+          <h2>Carousel description for slide 2</h2>
+        </div>
+        <div class="carousel-item">
+          <h1>Slide 3</h1>
+          <h2>Carousel description for slide 3</h2>
         </div>
       </div>
+
+      <!-- Carousel controls -->
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
     </div>
+  </div>
   </section><!-- End Hero -->
 
   <main id="main">
