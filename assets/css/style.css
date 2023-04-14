@@ -451,7 +451,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../img/cr-still.png") top center;
+  background: url("../img/cr-still.webp") top center;
   background-size: cover;
   z-index: -2;
 }
