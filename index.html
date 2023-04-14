@@ -29,7 +29,8 @@
 <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 <!-- Vendor CSS Files -->
-<link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css"></noscript>
 <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css"></noscript>
 <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
